@@ -306,7 +306,7 @@ void print_binary16(uint16_t n) {
 
 int main() {
     // Read assembly code from a file
-    FILE *assembly_file = fopen("assembly.asm", "r");
+    FILE *assembly_file = fopen("program.asm", "r");
     if (assembly_file == NULL) {
         perror("Error opening assembly.asm");
         return 1;
