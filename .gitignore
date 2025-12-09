@@ -1,0 +1,9 @@
+.vscode
+
+/output
+/SDL3
+/ignore
+*.exe
+*bin
+*.dll
+*.so
